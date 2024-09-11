@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 53, 104, 0.796);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titlo {
+    background-color: #000;
+    color: #04ff00;
+    box-shadow: 0px 10px 60px -10px #000;
+    width: 40%;
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh;
+}
+
+.fundo1 {
+    position: absolute;
+    z-index: 1;
+    bottom: -10vh;
+}
+
+.fundo2 {
+    position: absolute;
+    bottom: 0vh;
+}
+
+
+.card {
+    width: 65vh;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: 5vh;
+    background-color: #000;
+    transition: all .5s ease-in-out;
+    box-shadow:
+        rgba(0, 0, 0, 0.4) 0px 2px 5px,
+        rgba(0, 0, 0, 0.3) 0px 7px 10px 1px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all .5s ease-in-out;
+    box-shadow:
+        rgba(0, 0, 0, 0.4) 0px 4px 10px,
+        rgba(0, 0, 0, 0.3) 0px 7px 20px 4px,
+        rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+    transition: all .5s ease-in-out;
+    scale: 1.01;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+.card__content {
+    color: #04ff00;
+    margin-left: 2vh;
+    font-size: 2.5vh;
+}
+
+
+.caixa-do-formulario {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(238, 238, 238, 0.727);
+    border-radius: 30px;
+    box-shadow:
+        rgba(0, 0, 0, 0.4) 0px 2px 5px,
+        rgba(0, 0, 0, 0.3) 0px 7px 10px 1px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    z-index: 3;
+}
+
+
+h1 {
+    margin: 4vh;
+}
